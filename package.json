@@ -2,13 +2,33 @@
   "name": "react-epic-spinners",
   "version": "0.1.0",
   "private": true,
+  "main": "./index.js",
+  "author": {
+    "name": "Juan Esteban Echeverry Perdomo",
+    "url": "https://github.com/Juanestban/react-epic-spinners"
+  },
+  "repository": {
+    "directory": "./",
+    "url": "https://github.com/Juanestban/react-epic-spinners"
+  },
+  "keywords": [
+    "react",
+    "react-dom",
+    "react-spinners",
+    "react-epic-spinners",
+    "epic-spinners"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.0.9",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.3.1"
   }
 }
