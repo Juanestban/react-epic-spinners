@@ -3,7 +3,7 @@ import { Container, ContainerTitle } from './styles'
 import Title from '../../components/Atoms/Title'
 import Text from '../../components/Atoms/Text'
 import ContainerCodeCopy from '../../components/Molecules/ContainerCodeCopy'
-import { AtomSpinner } from '../../components/Molecules/Spinners'
+import AtomSpinner from '../../components/Molecules/Spinners/AtomSpinner'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           </Text>
         </ContainerTitle>
         <ContainerCodeCopy />
-        <AtomSpinner />
+        <AtomSpinner color="#09f" size={100} />
       </Container>
     </>
   )
