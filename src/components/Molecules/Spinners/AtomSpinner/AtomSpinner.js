@@ -7,12 +7,14 @@ import {
 } from './styles'
 
 export const AtomSpinner = ({ size, color, duration } = defaultProps) => {
+  const spnLine = ['', '', '']
+
   return (
     <ContainerSpinner size={size}>
       <SpinnerInner>
-        <SpinnerLine size={size} color={color} duration={duration} />
-        <SpinnerLine size={size} color={color} duration={duration} />
-        <SpinnerLine size={size} color={color} duration={duration} />
+        {spnLine.map((_, i) => (
+          <SpinnerLine key={i} size={size} color={color} duration={duration} />
+        ))}
         <SpinnerCircle size={size} color={color}>
           &#9679;
         </SpinnerCircle>
