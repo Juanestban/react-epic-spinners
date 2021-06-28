@@ -12,7 +12,7 @@ export const Card = styled.div`
   border: 1px solid red;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   padding-top: 25px;
 `
