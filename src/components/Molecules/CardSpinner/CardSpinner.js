@@ -11,7 +11,7 @@ export const CardSpinner = () => {
         const Spinner = Spinners[[name]]
         return (
           <Card key={i}>
-            <Spinner color="#09f" size={100} />
+            <Spinner color="#09f" size={80} />
             <Text style={{ marginTop: 10 }}>{nameSpinners[i]}</Text>
           </Card>
         )

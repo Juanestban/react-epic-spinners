@@ -1,17 +1,18 @@
 import styled from 'styled-components'
-
-export const BreendingSpinnerContainer = styled.div`
-  width: 65px;
-  height: 65px;
-  position: relative;
-  transform: rotate(45deg);
-`
+import { keyframes } from './animation'
 
 const sizeCSS = ({ size = 65, other = 7.5 }) => `calc(${size}px / ${other})`
 const sizePositionCSS = ({ size = 65, other = 2.3077 }) =>
   `calc(${size}px / ${other})`
 const durationCSS = ({ duration = 2000 }) => `${duration}ms`
 const bgCSS = ({ color = '#ff1d5e' }) => color
+
+export const BreendingSpinnerContainer = styled.div`
+  width: ${(props) => `${props.size}px`};
+  height: ${(props) => `${props.size}px`};
+  position: relative;
+  transform: rotate(45deg);
+`
 
 export const RhombusContent = styled.div`
   width: ${sizeCSS};
@@ -27,6 +28,10 @@ export const RhombusContent = styled.div`
   &:nth-child(2n + 0) {
     margin-right: 0;
   }
+  animation-name: breeding-rhombus-spinner-animation-child-${({ id }) => id};
+  animation-delay: calc(100ms * ${({ id }) => id});
+
+  ${keyframes()}
 `
 
 export const RhombusContentBig = styled.div`
@@ -36,9 +41,9 @@ export const RhombusContentBig = styled.div`
   top: ${({ size }) => sizePositionCSS({ size, other: 3 })};
   left: ${({ size }) => sizePositionCSS({ size, other: 3 })};
   background-color: ${bgCSS};
-  animation-delay: 500ms;
   box-sizing: border-box;
   animation: breeding-rhombus-spinner-big 2s infinite;
+  animation-delay: 0.5s;
 
   @keyframes breeding-rhombus-spinner-big {
     50% {

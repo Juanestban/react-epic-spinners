@@ -8,13 +8,14 @@ import {
 export const BreedingSpinner = ({ size, color, duration } = defaultProps) => {
   const rhombusArray = ['', '', '', '', '', '', '', '']
   return (
-    <BreendingSpinnerContainer>
+    <BreendingSpinnerContainer size={size}>
       {rhombusArray.map((_, index) => (
         <RhombusContent
           key={index}
           size={size}
           color={color}
           duration={duration}
+          id={index + 1}
         />
       ))}
       <RhombusContentBig size={size} color={color} duration={duration} />
