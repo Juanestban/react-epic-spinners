@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/react-epic-spinners/static/css/main.7966f941.chunk.css",
-    "main.js": "/react-epic-spinners/static/js/main.e7f07d47.chunk.js",
-    "main.js.map": "/react-epic-spinners/static/js/main.e7f07d47.chunk.js.map",
+    "main.js": "/react-epic-spinners/static/js/main.a1105554.chunk.js",
+    "main.js.map": "/react-epic-spinners/static/js/main.a1105554.chunk.js.map",
     "runtime-main.js": "/react-epic-spinners/static/js/runtime-main.e56d5026.js",
     "runtime-main.js.map": "/react-epic-spinners/static/js/runtime-main.e56d5026.js.map",
-    "static/js/2.84d54bf8.chunk.js": "/react-epic-spinners/static/js/2.84d54bf8.chunk.js",
-    "static/js/2.84d54bf8.chunk.js.map": "/react-epic-spinners/static/js/2.84d54bf8.chunk.js.map",
+    "static/js/2.3f4efd30.chunk.js": "/react-epic-spinners/static/js/2.3f4efd30.chunk.js",
+    "static/js/2.3f4efd30.chunk.js.map": "/react-epic-spinners/static/js/2.3f4efd30.chunk.js.map",
     "index.html": "/react-epic-spinners/index.html",
     "static/css/main.7966f941.chunk.css.map": "/react-epic-spinners/static/css/main.7966f941.chunk.css.map",
-    "static/js/2.84d54bf8.chunk.js.LICENSE.txt": "/react-epic-spinners/static/js/2.84d54bf8.chunk.js.LICENSE.txt",
+    "static/js/2.3f4efd30.chunk.js.LICENSE.txt": "/react-epic-spinners/static/js/2.3f4efd30.chunk.js.LICENSE.txt",
     "static/media/not-found.0c32b540.svg": "/react-epic-spinners/static/media/not-found.0c32b540.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e56d5026.js",
-    "static/js/2.84d54bf8.chunk.js",
+    "static/js/2.3f4efd30.chunk.js",
     "static/css/main.7966f941.chunk.css",
-    "static/js/main.e7f07d47.chunk.js"
+    "static/js/main.a1105554.chunk.js"
   ]
 }
