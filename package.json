@@ -1,8 +1,8 @@
 {
   "name": "react-epic-spinners",
+  "homepage": "https://juanestban.github.io/react-epic-spinners/",
   "version": "0.5.0",
   "private": true,
-  "homepage": "https://juanestban.github.io/react-epic-spinners",
   "main": "./index.js",
   "author": {
     "name": "Juan Esteban Echeverry Perdomo",
