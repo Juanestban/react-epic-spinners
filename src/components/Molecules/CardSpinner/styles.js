@@ -9,7 +9,6 @@ export const ContainerCard = styled.article`
 
 export const Card = styled.div`
   width: calc(100% / 4);
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
