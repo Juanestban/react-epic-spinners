@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-epic-spinners/static/css/main.7966f941.chunk.css",
-    "main.js": "/react-epic-spinners/static/js/main.a1105554.chunk.js",
-    "main.js.map": "/react-epic-spinners/static/js/main.a1105554.chunk.js.map",
+    "main.js": "/react-epic-spinners/static/js/main.626941f9.chunk.js",
+    "main.js.map": "/react-epic-spinners/static/js/main.626941f9.chunk.js.map",
     "runtime-main.js": "/react-epic-spinners/static/js/runtime-main.e56d5026.js",
     "runtime-main.js.map": "/react-epic-spinners/static/js/runtime-main.e56d5026.js.map",
     "static/js/2.3f4efd30.chunk.js": "/react-epic-spinners/static/js/2.3f4efd30.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e56d5026.js",
     "static/js/2.3f4efd30.chunk.js",
     "static/css/main.7966f941.chunk.css",
-    "static/js/main.a1105554.chunk.js"
+    "static/js/main.626941f9.chunk.js"
   ]
 }
