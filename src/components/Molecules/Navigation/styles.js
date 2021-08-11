@@ -10,6 +10,7 @@ export const Header = styled.header`
   position: sticky;
   top: 0;
   padding: 10px 5%;
+  background-color: var(--background-color);
   border-bottom: 1px solid var(--hover-code);
 `
 

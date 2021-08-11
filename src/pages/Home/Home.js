@@ -12,7 +12,7 @@ export default function Home() {
       </Helmet>
       <Container>
         <ContainerTitle>
-          <Text>
+          <Text style={{ textAlign: 'center' }}>
             This components epic spinners implemented for use in React.
           </Text>
         </ContainerTitle>

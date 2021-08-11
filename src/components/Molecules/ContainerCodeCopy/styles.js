@@ -18,10 +18,6 @@ export const BgCode = styled.div`
   background-color: var(--background-color-code);
 
   @media screen and (max-width: 600px) {
-    width: 60%;
-  }
-
-  @media screen and (max-width: 480px) {
     width: 90%;
   }
 `
@@ -43,4 +39,10 @@ export const ButtonIcon = styled(Button)`
 export const CodeContain = styled.div`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 600px) {
+    code {
+      font-size: 14px;
+    }
+  }
 `
