@@ -1,10 +1,11 @@
-import { AtomSpinner } from './AtomSpinner/AtomSpinner'
-import { BreedingSpinner } from './BreedingSpinner/BreedingSpinner'
-import { CirclesRhumbusesSpinner } from './CirclesRhumbusesSpinner/CirclesRhumbusesSpinner'
-import { FingerprintSpinner } from './FingerPrintSpinner/FingerPrintSpinner'
-import { FlowerSpinner } from './FlowerSpinner/FlowerSpinner'
-import { FulfillBounCircleSpinner } from './FulfillBounCircleSpinner/FulfillBounCircleSpinner'
-import { FulfillSquareSpinner } from './FulfillSquareSpinner/FulfillSquareSpinner'
+import AtomSpinner from './AtomSpinner'
+import BreedingSpinner from './BreedingSpinner'
+import CirclesRhumbusesSpinner from './CirclesRhumbusesSpinner'
+import FingerprintSpinner from './FingerPrintSpinner'
+import FlowerSpinner from './FlowerSpinner'
+import FulfillBounCircleSpinner from './FulfillBounCircleSpinner'
+import FulfillSquareSpinner from './FulfillSquareSpinner'
+import HalfCircleSpinner from './HalfCircleSpinner'
 
 const Spinners = {
   AtomSpinner,
@@ -14,6 +15,7 @@ const Spinners = {
   FlowerSpinner,
   FulfillBounCircleSpinner,
   FulfillSquareSpinner,
+  HalfCircleSpinner,
 }
 
 const nameSpinners = [
@@ -24,6 +26,7 @@ const nameSpinners = [
   'Flower spinner',
   'Fulfilling Bouncing Circle spinner',
   'Fulfilling Square Inner spinner',
+  'Half Circle spinner',
 ]
 
 export default Spinners
@@ -35,5 +38,6 @@ export {
   FlowerSpinner,
   FulfillBounCircleSpinner,
   FulfillSquareSpinner,
+  HalfCircleSpinner,
   nameSpinners,
 }
