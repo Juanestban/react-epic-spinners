@@ -7,6 +7,7 @@ import FulfillBounCircleSpinner from './FulfillBounCircleSpinner'
 import FulfillSquareSpinner from './FulfillSquareSpinner'
 import HalfCircleSpinner from './HalfCircleSpinner'
 import HollowDotsSpinner from './HollowDotsSpinner'
+import IntersecCirclesSpinners from './IntersecCirclesSpinners'
 
 const Spinners = {
   AtomSpinner,
@@ -18,6 +19,7 @@ const Spinners = {
   FulfillSquareSpinner,
   HalfCircleSpinner,
   HollowDotsSpinner,
+  IntersecCirclesSpinners,
 }
 
 const nameSpinners = [
@@ -30,6 +32,7 @@ const nameSpinners = [
   'Fulfilling Square Inner spinner',
   'Half Circle spinner',
   'Hollow Dots Spinner',
+  'Intersections Circles spinner',
 ]
 
 export default Spinners
@@ -43,5 +46,6 @@ export {
   FulfillSquareSpinner,
   HalfCircleSpinner,
   HollowDotsSpinner,
+  IntersecCirclesSpinners,
   nameSpinners,
 }
