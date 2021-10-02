@@ -6,6 +6,7 @@ import FlowerSpinner from './FlowerSpinner'
 import FulfillBounCircleSpinner from './FulfillBounCircleSpinner'
 import FulfillSquareSpinner from './FulfillSquareSpinner'
 import HalfCircleSpinner from './HalfCircleSpinner'
+import HollowDotsSpinner from './HollowDotsSpinner'
 
 const Spinners = {
   AtomSpinner,
@@ -16,6 +17,7 @@ const Spinners = {
   FulfillBounCircleSpinner,
   FulfillSquareSpinner,
   HalfCircleSpinner,
+  HollowDotsSpinner,
 }
 
 const nameSpinners = [
@@ -27,6 +29,7 @@ const nameSpinners = [
   'Fulfilling Bouncing Circle spinner',
   'Fulfilling Square Inner spinner',
   'Half Circle spinner',
+  'Hollow Dots Spinner',
 ]
 
 export default Spinners
@@ -39,5 +42,6 @@ export {
   FulfillBounCircleSpinner,
   FulfillSquareSpinner,
   HalfCircleSpinner,
+  HollowDotsSpinner,
   nameSpinners,
 }
