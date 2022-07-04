@@ -6,4 +6,8 @@ export {
   FingerprintSpinner,
   FlowerSpinner,
   FulfillBounCircleSpinner,
+  FulfillSquareSpinner,
+  HalfCircleSpinner,
+  HollowDotsSpinner,
+  IntersecCirclesSpinners,
 } from './src/components/Molecules/Spinners'
